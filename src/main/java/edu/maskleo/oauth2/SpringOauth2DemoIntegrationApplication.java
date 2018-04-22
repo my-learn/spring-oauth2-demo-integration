@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringOauth2DemoIntegrationApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringOauth2DemoIntegrationApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringOauth2DemoIntegrationApplication.class, args);
+    }
 }
