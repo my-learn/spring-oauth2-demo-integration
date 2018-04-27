@@ -29,3 +29,14 @@
 
 `order id : 1`
  
+### client模式：
+           
+`http://localhost:8080/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456`
+           
+```json
+{
+    "access_token":"56465b41-429d-436c-ad8d-613d476ff322",
+    "token_type":"bearer",
+    "expires_in":25074,
+    "scope":"select"}
+```
