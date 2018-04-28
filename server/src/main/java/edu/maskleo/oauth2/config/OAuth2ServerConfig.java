@@ -68,7 +68,6 @@ public class OAuth2ServerConfig {
                     .scopes("select")
                     .authorities("client")
                     .secret("123456")
-                    .redirectUris("http://localhost:8080/xxxx")
                     .and().withClient("client_2")
                     .resourceIds(DEMO_RESOURCE_ID)
                     .authorizedGrantTypes("password", "refresh_token")

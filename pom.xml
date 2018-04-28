@@ -6,7 +6,12 @@
     <groupId>edu.maskleo</groupId>
     <artifactId>spring-oauth2-demo-integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>client</module>
+        <module>server</module>
+        <module>client</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>spring-oauth2-demo-integration</name>
     <description>Demo project for Spring Boot</description>
