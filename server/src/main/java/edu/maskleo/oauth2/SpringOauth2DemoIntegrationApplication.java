@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"edu"})
+@ComponentScan(basePackages = {"edu.maskleo.oauth2"})
 public class SpringOauth2DemoIntegrationApplication {
 
     public static void main(String[] args) {

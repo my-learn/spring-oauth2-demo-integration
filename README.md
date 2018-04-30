@@ -1,5 +1,6 @@
 # spring-oauth2-demo-integration
 
+https://blog.csdn.net/u013815546/article/details/76898524
 
 ### 访问
 `curl http://localhost:8080/order/1`

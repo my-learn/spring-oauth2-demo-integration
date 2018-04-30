@@ -1,4 +1,4 @@
-package edu.maskleo.oauth2.endpoints;
+package edu.maskleo.oauth2.controller;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
